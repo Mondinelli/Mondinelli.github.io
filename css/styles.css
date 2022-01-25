@@ -14,6 +14,7 @@ h2{
 #elem5{grid-area: blokk5;}
 #elem6{grid-area: blokk6;}
 #elem7{grid-area: blokk7;}
+#elem8{grid-area: blokk8;}
 
 .tarolo{
     display: grid;
@@ -22,7 +23,8 @@ h2{
                          "blokk1 blokk4"
                          "blokk1 blokk5"
                          "blokk1 blokk6"
-                         "blokk1 blokk7";            
+                         "blokk1 blokk7"
+                         "blokk1 blokk8";            
 }
 .tarolo{
     grid-template-columns:350px 800px;
@@ -79,14 +81,14 @@ a{
 .social-media-list{
     display: flex;
     list-style: none;
-    font-size: 55px;
+    font-size: 45px;
 }
 .social-media-a{
-    color: rgb(68, 56, 56);
-    padding:0 60px 0 0;
+    color: rgb(125, 72, 72);
+    padding:0 35px 0 0;
 }
 .social-media-a:hover{
-    color: rgb(197, 141, 141);
+    color: rgb(184, 112, 112);
 }
 #elem4{
     padding:0px 20px;
@@ -128,10 +130,10 @@ display: flex;
 padding: 10px;
 }
 .programing-language-list{
-    padding: 15px;
+    padding:0 40px 40px 0;
     height: 30px;
-    font-size: 50px;
-    color: rgb(68, 56, 56);
+    font-size: 60px;
+    color: rgb(103, 70, 70);
 }
 
 #elem7{
@@ -141,4 +143,18 @@ padding: 10px;
 }
 .érdeklődés-item{
     margin:0 0 20px 15px;    
+}
+#elem8{
+    padding:10px 20px 60px;
+    width: 400px;
+}
+.kapcsolat-form{
+    padding:20px;
+}
+form{
+    font-size: 20px;
+}
+.beküldés:hover{
+    color: rgb(184, 112, 112);
+    cursor:pointer;
 }
