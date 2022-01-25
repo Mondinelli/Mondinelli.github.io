@@ -1,14 +1,19 @@
 body{
     background-color:rgb(243, 235, 235);
 }
-
-.elem1{grid-area: blokk1;}
-.elem2{grid-area: blokk2;}
-.elem3{grid-area: blokk3;}
-.elem4{grid-area: blokk4;}
-.elem5{grid-area: blokk5;}
-.elem6{grid-area: blokk6;}
-.elem7{grid-area: blokk7;}
+h1::after{content: ' Bence';
+    color: lightsalmon;}
+    h1{font-size: 5em;}
+h2{
+        font-size: 35px;
+    }
+#elem1{grid-area: blokk1;}
+#elem2{grid-area: blokk2;}
+#elem3{grid-area: blokk3;}
+#elem4{grid-area: blokk4;}
+#elem5{grid-area: blokk5;}
+#elem6{grid-area: blokk6;}
+#elem7{grid-area: blokk7;}
 
 .tarolo{
     display: grid;
@@ -20,70 +25,76 @@ body{
                          "blokk1 blokk7";            
 }
 .tarolo{
-    grid-template-columns:350px 800px ;
+    grid-template-columns:350px 800px;
 }
-
-.elem1{
+#elem1{
     background-color: lightsalmon;
     color: whitesmoke;
-    bottom: 250px;
-    height: auto;
+    height: 900px;
     text-transform: uppercase;
     text-align: center;
-}
-ol{
-list-style: none;
-line-height: 3em;
-margin: 30px;
-padding: 5px;
-position:fixed;
-top: 270px;
-}
-
-h1::after{content: ' Bence';
-color: lightsalmon;}
-h1{font-size: 5em;}
-img{
-    width: 200px;
-    height: auto;
-    border:4px solid whitesmoke;
-    border-radius: 100%;
-    position: relative;
-    left: 50px;
-    top: 40px;
-    margin: 30px;
     position:fixed;
 }
+.about{
+    list-style: none;
+    line-height: 3em;
+    margin: 20px;
+    padding:0 10px 0 0;
+    }
+.li-rolam{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 23px;
+}
+.li-rolam:hover{
+    color: rgb(197, 141, 141);
+}
+img{
+    width: 180px;
+    height: 180px;
+    border:4px solid whitesmoke;
+    border-radius: 100%;
+    margin: 240px 0px 0px 0px;
+}
+
 #elem2{
-    padding: 60px;
+    padding: 10px 0px;
     line-height: 10px;
     letter-spacing: 3px;
 }
 .adress{
-    position: relative;
-    left: 10px;
     letter-spacing: 1px;
     font-size: 17px;
 }
-
 a{
     color: rgb(206, 82, 60);
 }
 #elem3{
-    padding: 40px;
     font-size: 20px;
     line-height: 30px;
-    position: relative;
-    bottom: 40px;
     color: rgb(143, 134, 134);
+}
 
+.social-media-list{
+    display: flex;
+    list-style: none;
+    font-size: 55px;
+}
+.social-media-a{
+    color: rgb(68, 56, 56);
+    padding:0 60px 0 0;
+}
+.social-media-a:hover{
+    color: rgb(197, 141, 141);
 }
 #elem4{
-    padding:10px 50px;
+    padding:0px 20px;
     text-align: left;
     font-style: italic;
 }
 .table1{
+    margin-left: 15px;
     height: 500px;
     font-size: 20px;
     font-style: italic;
@@ -93,34 +104,41 @@ td.time{
     width:120px;
 }
 #elem5{
-    padding:20px 40px;
+    padding:20px 20px;
 
 }
 .table2{
+    margin-left: 15px;
     height: 200px;
     font-size: 20px;
     text-align: justify;
     width: 550px;
-   
 }
 #elem6{
-    padding-left: 40px;
+    padding:20px 20px;
     font-size: 20px;
     line-height: 40px;
 }
-h2{
-    font-size: 35px;
+.készségek-item{
+    margin-left: 15px; 
 }
+.programing-language{
+list-style: none;
+display: flex;
+padding: 10px;
+}
+.programing-language-list{
+    padding: 15px;
+    height: 30px;
+    font-size: 50px;
+    color: rgb(68, 56, 56);
+}
+
 #elem7{
-    padding:20px 40px;
+    padding:10px 20px 60px;
     font-size: 20px;
+    line-height: 20px;
 }
-.li-rolam{
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 23px;
-}
-.li-rolam:hover{
-    color: rgb(197, 141, 141);
+.érdeklődés-item{
+    margin:0 0 20px 15px;    
 }
