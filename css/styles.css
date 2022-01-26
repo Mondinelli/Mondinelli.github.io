@@ -27,21 +27,21 @@ h2{
                          "blokk1 blokk8";            
 }
 .tarolo{
-    grid-template-columns:350px 800px;
+    grid-template-columns:minmax(250px, 350px) minmax(400px, 850px);
 }
 #elem1{
     background-color: lightsalmon;
     color: whitesmoke;
-    height: 900px;
+    height: 1900px;
     text-transform: uppercase;
     text-align: center;
     position:fixed;
 }
 .about{
     list-style: none;
-    line-height: 3em;
-    margin: 20px;
-    padding:0 10px 0 0;
+    line-height: 3.6em;
+    margin: 30px;
+    padding:0px 10px 0 0;
     }
 .li-rolam{
     color: white;
@@ -53,11 +53,11 @@ h2{
     color: rgb(197, 141, 141);
 }
 img{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border:4px solid whitesmoke;
     border-radius: 100%;
-    margin: 240px 0px 0px 0px;
+    margin: 140px 0px 0px 0px;
 }
 
 #elem2{
@@ -68,6 +68,7 @@ img{
 .adress{
     letter-spacing: 1px;
     font-size: 17px;
+    margin-left:20px;
 }
 a{
     color: rgb(206, 82, 60);
@@ -94,6 +95,7 @@ a{
     padding:0px 20px;
     text-align: left;
     font-style: italic;
+   
 }
 .table1{
     margin-left: 15px;
@@ -107,7 +109,6 @@ td.time{
 }
 #elem5{
     padding:20px 20px;
-
 }
 .table2{
     margin-left: 15px;
