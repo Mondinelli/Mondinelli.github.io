@@ -7,16 +7,16 @@ html{
     font-size: 10px;
 } 
 body{
-    background-color:rgb(243, 235, 235);
+    background-color:rgb(255, 242, 242);
 }
 a{
-    color: rgb(206, 82, 60);
+    color: rgb(169, 60, 41);
 }
 
 header{
-    background-color: #b35a37;
+    background-color: rgb(179, 90, 55);
     font-size: 2.3rem;
-    color: whitesmoke;
+    color: white;
     top: 0;
     position: fixed;
     width: 100%;
@@ -53,7 +53,7 @@ margin: 3rem 0 0 0;
     font-size: 2rem;
     padding: 2rem;
     line-height: 3rem;
-    color: rgb(143, 134, 134);
+    color: rgb(91, 84, 84);
     margin: 1.5rem;
 }
 .social-media-list{
@@ -168,7 +168,7 @@ flex-wrap: wrap;
     padding: 0.5rem; 
 }
 #kérdés{
-    border:solid 1px #b35a37;
+    border:solid 1px rgb(179, 90, 55);
     padding: 0.5rem; 
 }
 .beküldés{
@@ -215,7 +215,7 @@ flex-wrap: wrap;
     }
         #elem1{
             background-color: #b35a37;
-            color: whitesmoke;
+            color: white;
             height: 2500px;
             text-transform: uppercase;
             text-align: center;
@@ -239,7 +239,7 @@ flex-wrap: wrap;
         img{
             width: 150px;
             height: 150px;
-            border:4px solid whitesmoke;
+            border:4px solid white;
             border-radius: 100%;
             margin: 80px 0px 0px 0px;
         }
@@ -320,7 +320,7 @@ flex-wrap: wrap;
         position: absolute;
         width: 100%;
         height: 3px;
-        background-color: whitesmoke;
+        background-color: white;
         transition-duration: 0.2s;
       }
       
@@ -382,7 +382,7 @@ flex-wrap: wrap;
         
     }
     .li-rolam{
-      color: whitesmoke;
+      color: white;
       text-decoration: none;
       text-transform: uppercase;
     }
