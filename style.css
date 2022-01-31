@@ -14,7 +14,7 @@ a{
 }
 
 header{
-    background-color: lightsalmon;
+    background-color: #b35a37;
     font-size: 2.3rem;
     color: whitesmoke;
     top: 0;
@@ -22,7 +22,9 @@ header{
     width: 100%;
 }
 .bev_nev{
-    padding: 1rem 0 0 1rem;
+    padding: 1.3rem 0 0 1rem;
+    font-size: 2.5rem;
+    letter-spacing:0;
 }
 #elem1{
     display:none;
@@ -45,7 +47,7 @@ margin: 3rem 0 0 0;
     margin-left:2rem;
 }
 #elem2 h1::after{content: ' Bence';
-    color: lightsalmon;}
+    color: #b35a37;}
 
 #elem3{
     font-size: 2rem;
@@ -144,36 +146,35 @@ flex-wrap: wrap;
     padding:1rem 2rem 5rem;
     width: 35rem;
     margin: 1.2rem 0 0 0rem;
-   
 }
+
 .kapcsolat-form{
-    padding:2rem;
-    box-shadow: 1px 1px 10px lightsalmon;
-    border: lightsalmon;
-   
-}
-form{
+    padding:7rem;
+    box-shadow: 1px 1px 10px #b35a37;
+    border: #b35a37;
     font-size: 2rem;
 }
+
 #vezetéknév{
-    border:solid 1px lightsalmon;
-    
+    border:solid 1px #b35a37;
+    padding: 0.5rem;    
 }
 #keresztnév{
-    border:solid 1px lightsalmon;
-    
+    border:solid 1px #b35a37;
+    padding: 0.5rem; 
 }
 #email{
-    border:solid 1px lightsalmon;
-    
+    border:solid 1px #b35a37;
+    padding: 0.5rem; 
 }
 #kérdés{
-    border:solid 1px lightsalmon;
-    
+    border:solid 1px #b35a37;
+    padding: 0.5rem; 
 }
 .beküldés{
-    border:solid 2px lightsalmon; 
     padding: 3px;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 3px #b35a37; 
    
 }
 .beküldés:hover{
@@ -213,7 +214,7 @@ form{
         display: none;
     }
         #elem1{
-            background-color: lightsalmon;
+            background-color: #b35a37;
             color: whitesmoke;
             height: 2500px;
             text-transform: uppercase;
@@ -247,7 +248,7 @@ form{
             font-size: 6rem;
             }
             #elem2 h1::after{content: ' Bence';
-                color: lightsalmon;}   
+                color: #b35a37;}   
         #elem2{
             padding: 3rem 4rem;
             line-height: 0.3rem;
@@ -341,7 +342,7 @@ form{
         height: 450px;
         padding: 75px 0;
         margin: 0;
-        background-color: lightsalmon;
+        background-color: #b35a37;
         visibility: hidden;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
       }
