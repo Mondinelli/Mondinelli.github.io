@@ -84,18 +84,29 @@ margin: 3rem 0 0 0;
     margin: 1.8rem;
     line-height: 4rem;      
 }
+.elem4-tároló{
+    max-width: 520px;
+    margin-left: 1rem;
+}
+#elem4 h2{
+    margin-bottom: 1rem;
+}
 .elem4-heading {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 550; 
 }
 .elem4-content{
 margin-bottom: 3rem;
+font-size: 1.8rem;
 }
 
 #elem5{
     font-size: 1.6rem;
     padding:1rem;
     margin: 1.8rem;
+}
+.elem5-tároló{
+    margin-left: 1rem;
 }
 .elem5-heading{
     font-size: 1.8rem;
@@ -105,6 +116,8 @@ margin-bottom: 3rem;
 } 
 .elem5-content{
     margin-bottom: 4rem;
+    font-size: 1.8rem;
+    font-style: italic;
     }
 #elem6{
     padding:1rem;
@@ -294,13 +307,11 @@ flex-wrap: wrap;
             margin: 1.2rem 0 0 30rem;
             max-width: 85rem;     
         }
-        .elem4-tároló{
-            max-width: 520px;
-        }
+       
         #elem5{
             margin: 1.2rem 1rem 1rem 30rem;
         }
-      
+       
         #elem6{
             margin: 1.2rem 0 0 30rem;
         }
