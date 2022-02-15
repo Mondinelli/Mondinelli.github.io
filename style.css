@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    
+}
 html{
     font-size: 10px;
 } 
@@ -47,7 +50,7 @@ margin: 3rem 0 0 0;
     margin-left:2rem;
 }
 #elem2 h1::after{content: ' Bence';
-    color: #b35a37;}
+    color: rgb(179, 90, 55);}
 
 #elem3{
     font-size: 2rem;
@@ -81,15 +84,12 @@ margin: 3rem 0 0 0;
     margin: 1.8rem;
     line-height: 4rem;      
 }
-.table1{
-    margin-left: 2rem;
-    height: 110rem;
+.elem4-heading {
     font-size: 1.8rem;
-    font-style: italic;
-    text-align: justify;
+    font-weight: 550; 
 }
-td.time{
-    width:120px;
+.elem4-content{
+margin-bottom: 3rem;
 }
 
 #elem5{
@@ -97,13 +97,15 @@ td.time{
     padding:1rem;
     margin: 1.8rem;
 }
-.table2{
-    margin-left: 2rem;
-    height: 30rem;
+.elem5-heading{
     font-size: 1.8rem;
-    font-style: italic;
-    text-align: justify;
-}
+    font-weight: 550;
+    margin: 3rem 0 1rem; 
+    letter-spacing: 1px;
+} 
+.elem5-content{
+    margin-bottom: 4rem;
+    }
 #elem6{
     padding:1rem;
     font-size: 1.6rem;
@@ -117,15 +119,17 @@ td.time{
 .készségek-item{
     margin-left: 1rem; 
 }
+.elem6-tech{
+    margin-bottom: 3rem;
+}
 .programing-language{
 list-style: none;
 display: flex;
-padding: 2rem;
 flex-wrap: wrap;
 }
 .programing-language-list{
-    padding:2rem 5rem 5rem 0;
-    font-size: 6rem;
+    padding: 0rem 1rem 4rem 2rem;
+    font-size: 13vw;
     color: rgb(103, 70, 70);
 }
 
@@ -178,8 +182,28 @@ flex-wrap: wrap;
    
 }
 .beküldés:hover{
-    color: rgb(184, 112, 112);
+    color: #b87070;
     cursor:pointer;
+}
+@media screen and (min-width: 400px) {
+    .programing-language-tároló{
+        max-width: 300px;
+    }
+    .programing-language-list{
+        padding: 0rem 1rem 4rem 2rem;
+        font-size: 5.5rem;
+        color: rgb(103, 70, 70);
+    }
+}
+@media screen and (min-width: 576px) {
+    .programing-language-tároló{
+        max-width: 500px;
+    }
+    .programing-language-list{
+        padding:2rem 5rem 5rem 0;
+        font-size: 6rem;
+        color: rgb(103, 70, 70);
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -270,24 +294,21 @@ flex-wrap: wrap;
             margin: 1.2rem 0 0 30rem;
             max-width: 85rem;     
         }
-        .table1{
-            height: 65rem;
+        .elem4-tároló{
+            max-width: 520px;
         }
         #elem5{
             margin: 1.2rem 1rem 1rem 30rem;
         }
-        .table2{
-            height: 20rem;
-        }
-        
+      
         #elem6{
             margin: 1.2rem 0 0 30rem;
         }
-        
+       
         .programing-language{
         list-style: none;
         display: flex;
-        padding: 10px;
+        padding:10px 0 10px 10px;
         }
         
         #elem7{
