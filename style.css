@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    
+ --menu-hover-color:rgb(231, 213, 213);   
 }
 html{
     font-size: 10px;
@@ -24,6 +24,7 @@ header{
     position: fixed;
     width: 100%;
 }
+.main{margin-top: 3rem;}
 .bev_nev{
     padding: 1.3rem 0 0 1rem;
     font-size: 2.5rem;
@@ -38,15 +39,18 @@ header{
     line-height: 4rem;
     letter-spacing: 1.3rem;
     margin:3rem;
+    margin-top: 5rem;
 }
 #elem2 h1{
 padding:1rem;
-font-size: 8vw;
+font-size: 4.5rem;
 margin: 3rem 0 0 0;
+line-height: 6rem;
+letter-spacing: 0.8rem;
 }
 .adress{
     letter-spacing:0.1rem;
-    font-size: 3.5vw;
+    font-size: 1.8rem;
     margin-left:2rem;
 }
 #elem2 h1::after{content: ' Bence';
@@ -217,6 +221,16 @@ flex-wrap: wrap;
         font-size: 6rem;
         color: rgb(103, 70, 70);
     }
+    #elem2 h1{
+        padding:1rem;
+        font-size: 8vw;
+        margin: 3rem 0 0 0;
+        }
+        .adress{
+            letter-spacing:0.1rem;
+            font-size: 3.5vw;
+            margin-left:2rem;
+        }
 }
 
 @media screen and (min-width: 768px) {
@@ -251,7 +265,7 @@ flex-wrap: wrap;
         display: none;
     }
         #elem1{
-            background-color: #b35a37;
+            background-color: rgb(179, 90, 55);
             color: white;
             height: 2500px;
             text-transform: uppercase;
@@ -271,7 +285,7 @@ flex-wrap: wrap;
             font-size: 2rem;
         }
         .li-rolam:hover{
-            color: rgb(197, 141, 141);
+            color: var(--menu-hover-color);
         }
         img{
             width: 150px;
@@ -285,7 +299,7 @@ flex-wrap: wrap;
             font-size: 6rem;
             }
             #elem2 h1::after{content: ' Bence';
-                color: #b35a37;}   
+                color: rgb(179, 90, 55);}   
         #elem2{
             padding: 3rem 4rem;
             line-height: 0.3rem;
@@ -374,9 +388,13 @@ flex-wrap: wrap;
         height: 450px;
         padding: 75px 0;
         margin: 0;
-        background-color: #b35a37;
+        background-color: rgb(179, 90, 55);
         visibility: hidden;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        user-select: none;
+      }
+      .menu__box .li-rolam:hover{
+          color: var(--menu-hover-color);
       }
       
       .menu__item {
