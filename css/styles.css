@@ -575,9 +575,7 @@ font-size: 1.5rem;
 padding: 2rem 0.5rem;
 margin-top: 3rem;
 }
-.education-items:hover{
-  outline:3px solid forestgreen;
-  }
+
 .icon-container{
 display: flex;
 padding:0.5rem 2rem;
@@ -862,7 +860,11 @@ transform: scale(1.15);
   .navbar{
     display: flex;
     justify-content: space-evenly;
-    background: linear-gradient(rgba(53,63,75,0.93), rgba(78, 224, 190, 0.93));
+     background: linear-gradient(
+    180deg,
+    rgba(19, 64, 13, 0.95) 20%,
+    rgba(29, 119, 115, 0.95) 100%
+  );
     position: fixed;
     top: 0;
     left: 0;
