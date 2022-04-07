@@ -448,6 +448,7 @@ box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.35);
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 120rem;
 }
 .product .itemBox{
  position: relative;
@@ -800,8 +801,8 @@ transform: scale(1.15);
 /*------------------Project-new--------------*/
 .product .itemBox{
   position: relative;
-  width: 350px;
-  height: 350px; 
+  width: 300px;
+  height: 300px; 
 }
 
 /*-------------------Contact---------------------*/
@@ -994,12 +995,7 @@ padding:13rem 0 0 ;
   width: 43rem;
 
 }
-  /*projects new*/
-  .product .itemBox{
-    position: relative;
-    width: 450px;
-    height: 450px; 
-  }
+
   /*----------------Service---------------*/
   .service-container{
     gap: 0rem 12rem;
