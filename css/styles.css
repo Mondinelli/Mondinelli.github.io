@@ -886,7 +886,7 @@ transform: scale(1.15);
   }
   .navbar-items a:hover{
     text-decoration: underline;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.3);
   }
   .heading-container{
     display: flex;
@@ -1078,7 +1078,6 @@ color: white;
   .monitor-icon{
     background-image: url(../assets/icons/logo/desktop_windows_white_24dp.svg);
   }
-
   .me-photo:hover{
     transform: scale(1.05);
     padding:4.1rem 0 0 ;
