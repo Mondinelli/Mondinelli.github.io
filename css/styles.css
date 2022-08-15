@@ -1062,7 +1062,8 @@ margin-left: 8rem;
     display: flex; 
   }
   .logo:hover{
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(350deg);
+  
   }
 
   .me-photo:hover{
