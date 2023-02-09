@@ -1004,8 +1004,12 @@ padding:13rem 0 0 ;
 .resume-all-container{
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 3rem;
   margin: 0 3rem;
+}
+.resume-container{
+  width: 50rem;
+  margin: 0 2rem;
 }
 .experience-heading{
   margin-top: 0rem;
@@ -1143,9 +1147,6 @@ margin: auto auto;
 }
 
 }
-
-
-
 
 @media screen and (min-width: 1400px) {}
 
